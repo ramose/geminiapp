@@ -3,14 +3,14 @@ import 'dart:developer';
 import 'package:flutter/material.dart';
 import 'package:flutter_gemini/flutter_gemini.dart';
 
-class ChartScreen extends StatefulWidget {
-  const ChartScreen({super.key});
+class ChatScreen extends StatefulWidget {
+  const ChatScreen({super.key});
 
   @override
-  State<ChartScreen> createState() => _ChartScreenState();
+  State<ChatScreen> createState() => _ChatScreenState();
 }
 
-class _ChartScreenState extends State<ChartScreen> {
+class _ChatScreenState extends State<ChatScreen> {
   TextEditingController inputController = TextEditingController();
   TextEditingController responseController = TextEditingController();
   final gemini = Gemini.instance;

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_gemini/flutter_gemini.dart';
 import 'package:gemini_app/views/chat.dart';
+import 'package:gemini_app/views/chat_speech.dart';
 
 void main() {
   Gemini.init(apiKey: 'AIzaSyBMxju6DQRU81wgfft6iIFFmiceCqC8Ghc');
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const ChartScreen(),
+      home: const ChatSpeechScreen(),
     );
   }
 }
