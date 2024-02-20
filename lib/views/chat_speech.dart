@@ -3,14 +3,14 @@ import 'dart:developer';
 import 'package:flutter/material.dart';
 import 'package:flutter_gemini/flutter_gemini.dart';
 
-class ChatScreen extends StatefulWidget {
-  const ChatScreen({super.key});
+class ChatSpeechScreen extends StatefulWidget {
+  const ChatSpeechScreen({super.key});
 
   @override
-  State<ChatScreen> createState() => _ChatScreenState();
+  State<ChatSpeechScreen> createState() => _ChatSpeechScreenState();
 }
 
-class _ChatScreenState extends State<ChatScreen> {
+class _ChatSpeechScreenState extends State<ChatSpeechScreen> {
   TextEditingController inputController = TextEditingController();
   TextEditingController responseController = TextEditingController();
   final gemini = Gemini.instance;
